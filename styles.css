@@ -9,17 +9,19 @@ body {
 #logo {
     height: 60px;
     width: 160px;
+    margin: 5px 15px;
 }
 
 #address {
     color: rgb(148, 163, 184);
+    margin : 10px auto 10px 15px;
 }
 
 .category {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 10px;
+    margin: 15px;
 }
 
 .category>strong {
@@ -28,7 +30,7 @@ body {
     height: 100%;
 }
 
-.category>a {
+a {
     color: rgb(148, 163, 184);
     margin: auto 5px;
     text-decoration: none;
@@ -45,4 +47,15 @@ body {
 hr {
     color: rgb(30, 41, 59);
     margin: 20px auto;
+}
+
+.primary-links {
+    font-weight: bold;
+    color: rgb(148, 163, 184);
+    display: flex;
+    margin : 10px auto 10px 10px;
+}
+
+.primary-links > a:hover {
+    color: white;
 }
