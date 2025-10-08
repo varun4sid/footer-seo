@@ -12,11 +12,6 @@ body {
     margin: 5px 15px;
 }
 
-#address {
-    color: rgb(148, 163, 184);
-    margin : 10px auto 10px 15px;
-}
-
 .category {
     display: flex;
     flex-direction: row;
